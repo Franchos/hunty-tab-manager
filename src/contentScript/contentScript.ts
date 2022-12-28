@@ -1,3 +1,3 @@
-chrome.runtime.sendMessage("From the content script", (response) => {
-    console.log(response);
-})
+// chrome.runtime.sendMessage({ message: "getTabs" }, function (response) {
+//   console.log(response);
+// });
