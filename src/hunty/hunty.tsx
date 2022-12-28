@@ -1,14 +1,14 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC } from "react";
 import "../assets/tailwind.css";
 import { createRoot } from "react-dom/client";
-import Home from "./home";
-import "../styles/global.css";
 
-const Popup: FC = () => {
-  return <Home />;
-};
+const Hunty: FC = () => (
+  <div className="h-screen w-screen bg-base-200">
+    <div className="bg-accent w-1/2 h-full"></div>
+  </div>
+);
 
 const container = document.createElement("div");
 document.body.appendChild(container);
 const root = createRoot(container);
-root.render(<Popup />);
+root.render(<Hunty />);
