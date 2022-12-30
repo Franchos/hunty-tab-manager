@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "../assets/tailwind.css";
+import "../styles/tailwind.css";
 import { createRoot } from "react-dom/client";
 
 const Hunty: FC = () => (
