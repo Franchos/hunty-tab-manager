@@ -14,7 +14,7 @@ export interface TabProps {
 const AddTab: FC<TabProps> = ({ actualTab }) => {
   const [title, setTitle] = useState(actualTab.title);
   const [booleani, setBoolean] = useState(true);
-  console.log(booleani);
+  // console.log(booleani);
 
   // const { metaState } = useMetaog(actualTab?.url);
 
@@ -105,9 +105,9 @@ const AddTab: FC<TabProps> = ({ actualTab }) => {
         </div>
       </div>
       {/* <Clock /> */}
-      <button className="btn btn-sm bottom-0 text-white" onClick={goToOptions}>
+      {/* <button className="btn btn-sm bottom-0 text-white" onClick={goToOptions}>
         Go play with tabs!
-      </button>
+      </button> */}
     </div>
   );
 };
